@@ -141,8 +141,8 @@ export default function Home() {
             className="character-float"
             src="/minecraft_grad.png"
             alt="Steve de Minecraft graduado"
-            width={230}
-            height={230}
+            width={440}
+            height={440}
             style={{ display: "block", margin: "0 auto 12px", objectFit: "contain", filter: "drop-shadow(0 8px 18px rgba(0,0,0,.18))" }}
             priority
           />
