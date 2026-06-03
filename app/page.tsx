@@ -173,22 +173,30 @@ export default function Home() {
           </p>
 
           {/* QR */}
-          <div style={{
-            display: "inline-block",
-            background: "#fff",
-            border: "3px solid #1a1a1a",
-            borderRadius: 14,
-            padding: 10,
-            marginBottom: 6,
-          }}>
-            <Image
-              src="/qr_ubicacion.png"
-              alt="QR Ubicación"
-              width={120}
-              height={120}
-              style={{ display: "block", objectFit: "contain" }}
-            />
-          </div>
+          <a
+            href="https://maps.app.goo.gl/SfwKCHoTN9bJqxSC8"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ display: "inline-block" }}
+          >
+            <div style={{
+              display: "inline-block",
+              background: "#fff",
+              border: "3px solid #1a1a1a",
+              borderRadius: 14,
+              padding: 10,
+              marginBottom: 6,
+              cursor: "pointer",
+            }}>
+              <Image
+                src="/qr_ubicacion.png"
+                alt="QR Ubicación"
+                width={120}
+                height={120}
+                style={{ display: "block", objectFit: "contain" }}
+              />
+            </div>
+          </a>
           <p style={{ fontSize: 13, fontWeight: 700, letterSpacing: ".06em", color: "#333" }}>Ubicación</p>
 
         </div>
