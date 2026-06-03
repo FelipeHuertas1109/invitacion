@@ -38,6 +38,7 @@ export default function Home() {
           0%, 100% { transform: translateY(0); }
           50%       { transform: translateY(-10px); }
         }
+        body { background: #f5f0e8; min-height: 100vh; }
         .names-gradient {
           font-family: 'Pacifico', cursive;
           font-size: clamp(30px, 8vw, 46px);
@@ -60,13 +61,11 @@ export default function Home() {
 
       <div style={{
         minHeight: "100vh",
-        background: "#f5f0e8",
         display: "flex",
         alignItems: "center",
         justifyContent: "center",
         fontFamily: "'Montserrat', sans-serif",
         position: "relative",
-        zIndex: 1,
       }}>
         {/* Card */}
         <div style={{
